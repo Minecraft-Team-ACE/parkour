@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.mcteamace.parkour.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "ParkourMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

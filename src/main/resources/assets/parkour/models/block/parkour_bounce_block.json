@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "parkour:block/parkour_jump_block_top",
+    "up": "parkour:block/parkour_jump_block_top",
+    "north": "parkour:block/parkour_jump_block_side",
+    "south":"parkour:block/parkour_jump_block_side",
+    "east": "parkour:block/parkour_jump_block_side",
+    "west": "parkour:block/parkour_jump_block_side",
+    "down": "parkour:block/parkour_jump_block_bottom"
+  }
+}

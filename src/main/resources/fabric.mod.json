@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "parkour",
+  "version": "${version}",
+
+  "name": "Parkour Mod",
+  "description": "A parkour mod for Minecraft Fabric.",
+  "authors": [
+    "Team ACE"
+  ],
+  "contact": {
+    "homepage": "https://github.com/mc-teamace",
+    "sources": "https://github.com/mc-teamace"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/parkour/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.mcteamace.parkour.ParkourMod"
+    ]
+  },
+  "mixins": [
+    "parkour.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
