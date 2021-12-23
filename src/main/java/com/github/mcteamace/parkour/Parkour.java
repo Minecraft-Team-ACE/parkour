@@ -11,17 +11,17 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 @SuppressWarnings("unused")
-public class ParkourMod implements ModInitializer {
+public class Parkour implements ModInitializer {
 
 	public static final ParkourBounceBlock PARKOUR_BOUNCE_BLOCK = new ParkourBounceBlock(FabricBlockSettings.of(Material.STONE).hardness(4.0f));
 
 	@Override
 	public void onInitialize() {
 		Registry.register(Registry.BLOCK, new Identifier("parkour", "parkour_bounce_block"), PARKOUR_BOUNCE_BLOCK);
-		System.out.println("ParkourMod: Registered blocks");
+		System.out.println("Parkour: Registered blocks");
 
 		Registry.register(Registry.ITEM, new Identifier("parkour", "parkour_bounce_block"), new BlockItem(PARKOUR_BOUNCE_BLOCK, new Item.Settings().group(ItemGroup.MISC)));
-		System.out.println("ParkourMod: Registered items");
+		System.out.println("Parkour: Registered items");
 
 		System.out.println("Initialized Parkour Mod.");
 	}
